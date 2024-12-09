@@ -8,8 +8,9 @@ spring:
     url: jdbc:mysql://mysql-32852281-fraijaayoubmed-c3bf.h.aivencloud.com:26894/defaultdb?ssl-mode=REQUIRED
     username: avnadmin
     password: AVNS_xkxuzP0r50m6kIilwuM
-    jpa:
-      hibernate:
-        ddl-auto: update
-      database-platform: org.hibernate.dialect.MySQL8Dialect
-      show-sql: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    generate-ddl: true
